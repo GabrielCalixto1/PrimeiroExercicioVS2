@@ -23,7 +23,7 @@
         var valorNaPosicaoTres = numeros.ElementAt(3);
         var valorPar = numeros.Find(numero => numero % 2 == 0);
         var valoresPares = numeros.Where(numero => numero % 2 == 0);
-        var valoresParesDois = numeros.FindAll(numero => numero % 2 == 0);
+        var valoresParesDois = numeros.FindAll(numero => numero % 2 == 0);21
 
         Console.WriteLine("Finalizou");
     }
